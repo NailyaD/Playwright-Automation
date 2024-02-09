@@ -1,8 +1,8 @@
-PLAYWRIGHT_AUTOMATION PROJECT
+## PLAYWRIGHT_AUTOMATION PROJECT
 
 This is a test framework containing several tests covering a general functionality of the Bunch Help Center
 
-TEST SCENARIOS
+## TEST SCENARIOS
 
 The framework contains the following test scenarios in two suites - Navigation and Search:
 1. A user should be able to navigate to the main website page from Help Center
@@ -10,7 +10,7 @@ The framework contains the following test scenarios in two suites - Navigation a
 3. A user should be able to see that each search result list item contains a key word typed in the search field
 4. A user should be able to open article
 
-PREREQUISITES
+## PREREQUISITES
 
 1. Operating System: Playwright can run on Windows, Mac, and Linux
 
@@ -24,18 +24,24 @@ https://code.visualstudio.com/download
 
 4. Playwright
 
-npm: npm init playwright@latest
-yarn: yarn create playwright
-pnpm: pnpm create playwright
+npm: `npm init playwright@latest`
 
-Run the install command and select the following to get started:
+yarn: `yarn create playwright`
 
-    Choose between TypeScript or JavaScript (default is TypeScript)
-    Name of your Tests folder (default is tests or e2e if you already have a tests folder in your project)
-    Add a GitHub Actions workflow to easily run tests on CI
-    Install Playwright browsers (default is true)
+pnpm: `pnpm create playwright`
 
-HOW TO RUN THE PROJECT
+
+_Run the install command and select the following to get started:_
+
+Choose between TypeScript or JavaScript (default is TypeScript)
+
+Name of your Tests folder (default is tests or e2e if you already have a tests folder in your project)
+
+Add a GitHub Actions workflow to easily run tests on CI
+
+Install Playwright browsers (default is true)
+
+## HOW TO RUN THE PROJECT
 
 1. Clone the repo using below URL
 
@@ -43,16 +49,20 @@ https://github.com/NailyaD/Playwright-Automation.git
 
 2. Navigate to test folder and install npm packages using:
 
-npm install
+`npm install`
 
-HOW TO RUN TESTS
+## HOW TO RUN TESTS
 
-To run all tests on all browsers in a headless mode: npx playwright test
-To run a specific test file: npx playwright test navigation.spec.ts
-To run on a specific browser: npx playwright test --project=chromium
-To run tests in a headed mode: npx playwright test --headed
-To run tests in a debug mode: npx playwright test --debug
+To run all tests on all browsers in a headless mode: `npx playwright test`
 
-CONTRIBUTORS
+To run a specific test file: `npx playwright test navigation.spec.ts`
+
+To run on a specific browser: `npx playwright test --project=chromium`
+
+To run tests in a headed mode: `npx playwright test --headed`
+
+To run tests in a debug mode: `npx playwright test --debug`
+
+## CONTRIBUTORS
 
 Nailya Doskanova, IschenkoArtem, alexAtBunchCapital
